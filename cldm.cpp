@@ -53,8 +53,8 @@ int main() {
             system("startx /usr/bin/lxqt");
         } else if (decision == "awesome") {
             system("startx /usr/bin/awesome && pkill cldm");
-        } else if (decision == "cinnamon && pkill cldm") {
-            system("startx /usr/bin/cinnamon");
+        } else if (decision == "cinnamon") {
+            system("startx /usr/bin/cinnamon && pkill cldm");
         } else if (decision == "budgie") {
             system("startx /usr/bin/budgie && pkill cldm");
         } else if (decision == "pantheon") {
@@ -68,4 +68,3 @@ int main() {
         }
     }
     return 0;
-}
