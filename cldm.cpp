@@ -34,39 +34,38 @@ int main() {
         } else if (decision == "lxde") {
             system("startx /usr/bin/lxde && pkill cldm");
         } else if (decision == "bspwm") {
-            system("startx /usr/bin/bspwm");
+            system("startx /usr/bin/bspwm && pkill cldm");
         } else if (decision == "xfce") {
-            system("startx /usr/bin/xfce");
+            system("startx /usr/bin/xfce && pkill cldm");
         } else if (decision == "kde") {
-            system("startx /usr/bin/kde");
+            system("startx /usr/bin/kde && pkill cldm");
         } else if (decision == "gnome") {
-            system("startx /usr/bin/gnome");
+            system("startx /usr/bin/gnome && pkill cldm");
         } else if (decision == "openbox") {
-            system("startx /usr/bin/openbox");
+            system("startx /usr/bin/openbox && pkill cldm");
         } else if (decision == "herbstluftwm") {
-            system("startx /usr/bin/herbstluftwm");
+            system("startx /usr/bin/herbstluftwm && pkill cldm");
         } else if (decision == "dk") {
-            system("startx /usr/bin/dk");
+            system("startx /usr/bin/dk && pkill cldm");
         } else if (decision == "gwm") {
-            system("startx /usr/bin/gwm");
+            system("startx /usr/bin/gwm && pkill cldm");
         } else if (decision == "lxqt") {
             system("startx /usr/bin/lxqt");
         } else if (decision == "awesome") {
-            system("startx /usr/bin/awesome");
-        } else if (decision == "cinnamon") {
+            system("startx /usr/bin/awesome && pkill cldm");
+        } else if (decision == "cinnamon && pkill cldm") {
             system("startx /usr/bin/cinnamon");
         } else if (decision == "budgie") {
-            system("startx /usr/bin/budgie");
+            system("startx /usr/bin/budgie && pkill cldm");
         } else if (decision == "pantheon") {
-            system("startx /usr/bin/pantheon");
+            system("startx /usr/bin/pantheon && pkill cldm");
         } else if (decision == "unity") {
-            system("startx /usr/bin/unity");
+            system("startx /usr/bin/unity && pkill cldm");
         } else if (decision == "deepin") {
-            system("startx /usr/bin/deepin");
+            system("startx /usr/bin/deepin && pkill cldm");
         } else if (decision == "i3") {
-            system("startx /usr/bin/i3");
+            system("startx /usr/bin/i3 && pkill cldm");
         }
-    
+    }
     return 0;
-}
 }
