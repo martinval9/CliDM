@@ -1,7 +1,7 @@
 # cldm---CONSOLE-DISPLAY-MANAGER
 Iniciar sesión desde la terminal
 
-![Preview Image]img1.png
+![Preview Image](https://github.com/martinval9/cldm---CONSOLE-DISPLAY-MANAGER/blob/main/img1.png)
 
 ## Instalación
 cd cldm---CONSOLE-DISPLAY-MANAGER
