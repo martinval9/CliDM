@@ -16,6 +16,7 @@ En caso de que no funcione el _install.sh_ hay que ejecutar estos comandos:
 cd cldm---CONSOLE-DISPLAY-MANAGER
 
 sudo cp cldm /usr/bin/
+
 sudo cp verificar.py /usr/bin/
 
 sudo cp cldm.cpp .config
