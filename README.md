@@ -1,4 +1,4 @@
-# cldm---CONSOLE-DISPLAY-MANAGER
+# cldm---CONSOLE-DISPLAY-MANAGER (Basado en tbsm)
 Iniciar sesión desde la terminal
 
 ![Preview Image](https://github.com/martinval9/cldm---CONSOLE-DISPLAY-MANAGER/blob/main/img1.png)
