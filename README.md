@@ -6,7 +6,8 @@ Iniciar sesión desde la terminal
 ![Preview Image](https://github.com/martinval9/cldm---CONSOLE-DISPLAY-MANAGER/blob/main/img2.png)
 
 ## Instalación
-git clone https://github.com/martinval9/cldm---CONSOLE-DISPLAY-MANAGER.git  
+git clone https://github.com/martinval9/cldm---CONSOLE-DISPLAY-MANAGER.git
+
 cd cldm---CONSOLE-DISPLAY-MANAGER
 
 sudo bash install.sh
