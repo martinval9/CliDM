@@ -34,6 +34,8 @@ try:
 except IOError:
     pass
 
+
+
 try:
     with open('/usr/bin/budgie') as f:
         print("budgie")
@@ -323,3 +325,9 @@ try:
 except IOError:
     pass
 
+try:
+    with open('/usr/bin/wmx') as f:
+        print("wmx")
+
+except IOError:
+    pass
