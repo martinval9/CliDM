@@ -183,3 +183,143 @@ try:
 except IOError:
     pass
 
+try:
+    with open('/usr/bin/frankenwm') as f:
+        print("frankenwm")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/chamfer') as f:
+        print("chamfer")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/flashfocus') as f:
+        print("flashfocus")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/flatman') as f:
+        print("flatman")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/hikari') as f:
+        print("hikari")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/larswm') as f:
+        print("larswm")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/notion') as f:
+        print("notion")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/futile') as f:
+        print("futile")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/stumpwm') as f:
+        print("stumpwm")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/blackbox') as f:
+        print("blackbox")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/byobu') as f:
+        print("byobu")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/cwm') as f:
+        print("cwm")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/enlightenment') as f:
+        print("enlightenment")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/fvwm') as f:
+        print("fvwm")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/lumina') as f:
+        print("lumina")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/musca') as f:
+        print("musca")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/pekwm') as f:
+        print("pekwm")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/ratpoison') as f:
+        print("ratpoison")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/sawfish') as f:
+        print("sawfish")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/twm') as f:
+        print("twm")
+
+except IOError:
+    pass
+
