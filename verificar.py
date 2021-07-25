@@ -1,27 +1,27 @@
 try:
     with open('/usr/bin/i3') as f:
-        print("i3")
+        print("I3")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/sway') as f:
-        print("sway")
+        print("Sway")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/qtile') as f:
-        print("qtile")
+        print("Qtile")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/awesome') as f:
-        print("awesome")
+        print("Awesome")
 
 except IOError:
     pass
@@ -29,16 +29,14 @@ except IOError:
 
 try:
     with open('/usr/bin/cinnamon') as f:
-        print("cinnamon")
+        print("Cinnamon")
 
 except IOError:
     pass
 
-
-
 try:
     with open('/usr/bin/budgie') as f:
-        print("budgie")
+        print("Budgie")
 
 except IOError:
     pass
@@ -46,35 +44,35 @@ except IOError:
 
 try:
     with open('/usr/bin/deepin') as f:
-        print("deepin")
+        print("Deepin")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/unity') as f:
-        print("unity")
+        print("Unity")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/pantheon') as f:
-        print("pantheon")
+        print("Pantheon")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/mate') as f:
-        print("mate")
+        print("Mate")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/fluxbox') as f:
-        print("fluxbox")
+        print("Fluxbox")
 
 except IOError:
     pass
@@ -82,7 +80,7 @@ except IOError:
 
 try:
     with open('/usr/bin/bspwm') as f:
-        print("bspwm")
+        print("Bspwm")
 
 except IOError:
     pass
@@ -90,244 +88,251 @@ except IOError:
 
 try:
     with open('/usr/bin/lxde') as f:
-        print("lxde")
+        print("Lxde")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/xfce' or '/usr/bin/xfce4') as f:
-        print("xfce")
+        print("Xfce")
 
 except IOError:
     pass
 
 try:
-    with open('/usr/bin/kde') as f:
-        print("kde")
+    with open('/usr/bin/startplasma-x11') as f:
+        print("Kde-plasma")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/gnome') as f:
-        print("gnome")
+        print("Gnome")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/lxqt') as f:
-        print("lxqt")
+        print("Lxqt")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/dwm') as f:
-        print("dwm")
+        print("Dwm")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/openbox') as f:
-        print("openbox")
+        print("Openbox")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/herbstluftwm') as f:
-        print("herbstluftwm")
+        print("Herbstluftwm")
 
 except IOError:
     pass
 try:
     with open('/usr/bin/dk') as f:
-        print("dk")
+        print("Dk")
         
 except IOError:
     pass
 
 try:
     with open('/usr/bin/gwm') as f:
-        print("gwm")
+        print("Gwm")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/xmonad') as f:
-        print("xmonad")
+        print("Xmonad")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/spectrwm') as f:
-        print("spectrwm")
+        print("Spectrwm")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/jwm') as f:
-        print("jwm")
+        print("Jwm")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/xfwm') as f:
-        print("xfwm")
+        print("Xfwm")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/frankenwm') as f:
-        print("frankenwm")
+        print("Frankenwm")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/chamfer') as f:
-        print("chamfer")
+        print("Chamfer")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/flashfocus') as f:
-        print("flashfocus")
+        print("Flashfocus")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/flatman') as f:
-        print("flatman")
+        print("Flatman")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/hikari') as f:
-        print("hikari")
+        print("Hikari")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/larswm') as f:
-        print("larswm")
+        print("Larswm")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/notion') as f:
-        print("notion")
+        print("Notion")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/futile') as f:
-        print("futile")
+        print("Futile")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/stumpwm') as f:
-        print("stumpwm")
+        print("Stumpwm")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/blackbox') as f:
-        print("blackbox")
+        print("Blackbox")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/byobu') as f:
-        print("byobu")
+        print("Byobu")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/cwm') as f:
-        print("cwm")
+        print("Cwm")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/enlightenment') as f:
-        print("enlightenment")
+        print("Enlightenment")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/fvwm') as f:
-        print("fvwm")
+        print("Fvwm")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/lumina') as f:
-        print("lumina")
+        print("Lumina")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/musca') as f:
-        print("musca")
+        print("Musca")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/pekwm') as f:
-        print("pekwm")
+        print("Pekwm")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/ratpoison') as f:
-        print("ratpoison")
+        print("Ratpoison")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/sawfish') as f:
-        print("sawfish")
+        print("Sawfish")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/twm') as f:
-        print("twm")
+        print("Twm")
 
 except IOError:
     pass
 
 try:
     with open('/usr/bin/wmx') as f:
-        print("wmx")
+        print("Wmx")
+
+except IOError:
+    pass
+
+try:
+    with open('/usr/bin/openbox-kde-session') as f:
+        print("KDE/Openbox")
 
 except IOError:
     pass
