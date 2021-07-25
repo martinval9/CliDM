@@ -124,7 +124,7 @@ int main() {
 
     	else if (decision == "KDE/Openbox" || decision == "Kde/Openbox" || decision == "kde/openbox") {system("startx /usr/bin/openbox-kde-session && pkill cldm");}
 
-        else if (decision == "kde-plasma" || decision == "Kde-Plasma" || decision == "Kde-plasma")    {system("startx /usr/bin/startplasma-x11");}
+        else if (decision == "kde-plasma" || decision == "Kde-Plasma" || decision == "Kde-plasma")    {system("startx /usr/bin/startplasma-x11 && pkill cldm");}
     }
 
     return 0;
