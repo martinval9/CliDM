@@ -18,10 +18,10 @@ int main() {
         cout << "\n█▀▄▀█ ▄▀█ █▄░█ ▄▀█ █▀▀ █▀▀ █▀█" <<endl;
         cout <<   "█░▀░█ █▀█ █░▀█ █▀█ █▄█ ██▄ █▀▄\n" << RESET_COLOR <<endl;
 
-        cout << "Entornos" << CYAN_T << ":\n" << RESET_COLOR <<endl;
+        cout << "Entornos / Environments" << CYAN_T << ":\n" << RESET_COLOR <<endl;
         system("python3 /usr/bin/verificar.py");
 
-        cout << CYAN_T << "Para lanzar el entorno de escritorio simplemente debes escribir su nombre(El que aparece arriba)" << RESET_COLOR <<endl;
+        cout << CYAN_T << "Para lanzar el entorno de escritorio simplemente debes escribir su nombre(El que aparece arriba) \n\nTo launch the desktop environment you simply have to write its name (The one that appears above)" << RESET_COLOR <<endl;
         string decision;
         cout << "\nCldm" << CYAN_T << ": " << RESET_COLOR;
         cin >> decision;
