@@ -1,3 +1,4 @@
+echo ''
 echo '█▀▀ █░░ █▀▀▄ █▀▄▀█ 　 ▀█▀ █▀▀▄ █▀▀ ▀▀█▀▀ █▀▀█ █░░ █░░ █▀▀█ ▀▀█▀▀ ░▀░ █▀▀█ █▀▀▄' 
 echo '█░░ █░░ █░░█ █░▀░█ 　 ▒█░ █░░█ ▀▀█ ░░█░░ █▄▄█ █░░ █░░ █▄▄█ ░░█░░ ▀█▀ █░░█ █░░█' 
 echo '▀▀▀ ▀▀▀ ▀▀▀░ ▀░░░▀ 　 ▄█▄ ▀░░▀ ▀▀▀ ░░▀░░ ▀░░▀ ▀▀▀ ▀▀▀ ▀░░▀ ░░▀░░ ▀▀▀ ▀▀▀▀ ▀░░▀'
@@ -12,4 +13,4 @@ echo 'Console Display Manager Instalado :D / Console Display Manager Installed :
 
 echo ''
 
-echo 'Para lanzarlo debes entrar al tty(Ctrl+Alt+F2) de tu distro linux y escribir "cldm" sin las comillas / To launch it you must enter the tty (Ctrl + Alt + F2) of your linux distro and write "cldm" without the quotes'
+echo 'Para lanzarlo debes entrar al tty (Ctrl + Alt + F2) de tu distro linux y escribir "cldm" sin las comillas / To launch it you must enter the tty (Ctrl + Alt + F2) of your linux distro and write "cldm" without the quotes'
