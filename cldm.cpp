@@ -34,6 +34,8 @@ int main() {
         // pkill cldm para evitar un consumo excesivo de cpu
         if(decision == "dwm" || decision == "Dwm")                                                    {system("startx /usr/bin/dwm && pkill cldm");} 
 
+        else if (decision == "qtile" || decision == "Qtile")                                          {system("startx /usr/bin/qtile && pkill cldm");} 
+
         else if (decision == "fluxbox" || decision == "Fluxbox" || decision == "FluxBox")             {system("startx /usr/bin/fluxbox && pkill cldm");} 
 
         else if (decision == "lxde"    || decision == "Lxde")                                         {system("startx /usr/bin/lxde && pkill cldm");} 
