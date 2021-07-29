@@ -6,6 +6,8 @@ rm -r cldm---CONSOLE-DISPLAY-MANAGER
 
 sudo rm /usr/bin/cldm
 
+sudo rm /usr/bin/verificar.py
+
 git clone https://github.com/martinval9/cldm---CONSOLE-DISPLAY-MANAGER
 
 cd cldm---CONSOLE-DISPLAY-MANAGER
