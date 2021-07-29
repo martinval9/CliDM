@@ -1,4 +1,11 @@
 try:
+    with open('/usr/bin/startxfce4') as f:
+        print("Xfce")
+
+except IOError:
+    pass
+
+try:
     with open('/usr/bin/i3') as f:
         print("I3")
 
@@ -94,13 +101,6 @@ except IOError:
     pass
 
 try:
-    with open('/usr/bin/xfce' or '/usr/bin/xfce4') as f:
-        print("Xfce")
-
-except IOError:
-    pass
-
-try:
     with open('/usr/bin/startplasma-x11') as f:
         print("Kde-plasma")
 
@@ -172,13 +172,6 @@ except IOError:
 try:
     with open('/usr/bin/jwm') as f:
         print("Jwm")
-
-except IOError:
-    pass
-
-try:
-    with open('/usr/bin/xfwm') as f:
-        print("Xfwm")
 
 except IOError:
     pass
