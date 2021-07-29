@@ -16,10 +16,9 @@ int main() {
         cout << CYAN_T <<   "█▄▄ █▄█ █░▀█ ▄█ █▄█ █▄▄ ██▄   █▄▀ █ ▄█ █▀▀ █▄▄ █▀█ ░█░" << endl;
 
         cout << "\n█▀▄▀█ ▄▀█ █▄░█ ▄▀█ █▀▀ █▀▀ █▀█" << endl;
-        cout <<   "█░▀░█ █▀█ █░▀█ █▀█ █▄█ ██▄ █▀▄ 1.3\n" << RESET_COLOR << endl;
+        cout <<   "█░▀░█ █▀█ █░▀█ █▀█ █▄█ ██▄ █▀▄ 1.4\n" << RESET_COLOR << endl;
 
         cout << "Entornos / Environments" << CYAN_T << ":\n" << RESET_COLOR << endl;
-        //system("python3 /usr/bin/verificar.py");
 
         //Comprobación
         FILE *file;
