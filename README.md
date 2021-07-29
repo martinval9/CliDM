@@ -12,9 +12,9 @@ git clone https://github.com/martinval9/cldm---CONSOLE-DISPLAY-MANAGER.git
 
 cd cldm---CONSOLE-DISPLAY-MANAGER
 
-sudo bash install.sh
+sudo make
 
-En caso de que no funcione el _install.sh_ hay que ejecutar estos comandos: / In case the _install.sh_ does not work, execute these commands:
+En caso de que no funcione el _makefile_ hay que ejecutar estos comandos: / In case the _install.sh_ does not work, execute these commands:
 
 cd cldm---CONSOLE-DISPLAY-MANAGER
 
