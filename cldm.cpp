@@ -19,17 +19,111 @@ int main() {
         cout <<   "█░▀░█ █▀█ █░▀█ █▀█ █▄█ ██▄ █▀▄ 1.3\n" << RESET_COLOR << endl;
 
         cout << "Entornos / Environments" << CYAN_T << ":\n" << RESET_COLOR << endl;
-        system("python3 /usr/bin/verificar.py");
+        //system("python3 /usr/bin/verificar.py");
+
+        //Comprobación
+        FILE *file;
+        if (file = fopen("a.txt", "r")) {fclose(file);}
+
+        if (file = fopen("/usr/bin/qtile", "r"))               {cout << "Qtile" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/startxfce4", "r"))          {cout << "Xfce" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/i3", "r"))                  {cout << "i3" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/sway", "r"))                {cout << "Sway" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/awesome", "r"))             {cout << "Awesome" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/cinnamon", "r"))            {cout << "Cinnamon" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/budgie", "r"))              {cout << "Budgie" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/deepin", "r"))              {cout << "Deepin" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/unity", "r"))               {cout << "" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/pantheon", "r"))            {cout << "Pantheon" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/mate", "r"))                {cout << "Mate" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/fluxbox", "r"))             {cout << "FluxBox" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/bspwm", "r"))               {cout << "Bspwm" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/lxde", "r"))                {cout << "Lxde" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/startplasma-x11", "r"))     {cout << "Kde-Plasma" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/gnome", "r"))               {cout << "Gnome" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/lxqt", "r"))                {cout << "Lxqt" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/dwm", "r"))                 {cout << "Dwm" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/openbox", "r"))             {cout << "Openbox" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/herbstluftwm", "r"))        {cout << "Herbstluftwm" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/dk", "r"))                  {cout << "Dk" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/gwm", "r"))                 {cout << "Gwm" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/xmonad", "r"))              {cout << "Xmonad" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/spectrwm", "r"))            {cout << "Spectrwm" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/jwm", "r"))                 {cout << "Jwm" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/frankenwm", "r"))           {cout << "Frankenwm" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/chamfer", "r"))             {cout << "Chamfer" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/flashfocus", "r"))          {cout << "Flashfocus" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/flatman", "r"))             {cout << "Flatman" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/hikari", "r"))              {cout << "Hikari" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/larswm", "r"))              {cout << "Larswm" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/notion", "r"))              {cout << "Notion" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/futile", "r"))              {cout << "Futile" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/stumpwm", "r"))             {cout << "Stumpwm" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/blackbox", "r"))            {cout << "BlackBox" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/byobu", "r"))               {cout << "Byobu" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/cwm", "r"))                 {cout << "Cwm" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/enlightenment", "r"))       {cout << "Enlightenment" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/fvwm", "r"))                {cout << "Fvwm" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/lumina", "r"))              {cout << "Lumina" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/musca", "r"))               {cout << "Musca" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/pekwm", "r"))               {cout << "Pekwm" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/ratpoison", "r"))           {cout << "Ratpoison" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/sawfish", "r"))             {cout << "Sawfish" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/twm", "r"))                 {cout << "Twm" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/wmx", "r"))                 {cout << "Wmx" << endl; fclose(file);}
+
+        if (file = fopen("/usr/bin/openbox-kde-session", "r")) {cout << "KDE/Openbox" << endl; fclose(file);}
 
         cout << CYAN_T << "Para lanzar el entorno de escritorio simplemente debes escribir su nombre(El que aparece arriba) \n\nTo launch the desktop environment you simply have to write its name (The one that appears above)" << RESET_COLOR << endl;
         string decision;
         cout << "\nCldm" << CYAN_T << ": " << RESET_COLOR;
         cin >> decision;
 
-        FILE *file;
-        if (file = fopen("a.txt", "r")) {
-            fclose(file);
-        } else {} 
 
         // pkill cldm para evitar un consumo excesivo de cpu
         if(decision == "dwm" || decision == "Dwm")                                                    {cout << "Running Command: " << CYAN_T << "startx /usr/bin/dwm && pkill cldm"                             << RESET_COLOR << endl; system("startx /usr/bin/dwm && pkill cldm");} 
