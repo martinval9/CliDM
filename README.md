@@ -22,8 +22,6 @@ sudo cp cldm /usr/bin/
 
 sudo cp verificar.py /usr/bin/
 
-sudo cp cldm.cpp .config
-
 ## Advertencia / Warning
 
 No es nada recomendable lanzar un entorno de escritorio si no estas en el tty.
