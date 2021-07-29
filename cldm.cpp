@@ -118,7 +118,7 @@ int main() {
 
         if (file = fopen("/usr/bin/openbox-kde-session", "r")) {cout << "KDE/Openbox" << endl; fclose(file);}
 
-        cout << CYAN_T << "Para lanzar el entorno de escritorio simplemente debes escribir su nombre(El que aparece arriba) \n\nTo launch the desktop environment you simply have to write its name (The one that appears above)" << RESET_COLOR << endl;
+        cout << CYAN_T << "Para lanzar el entorno de escritorio simplemente debes escribir su nombre (El que aparece arriba) \n\nTo launch the desktop environment you simply have to write its name (The one that appears above)" << RESET_COLOR << endl;
         string decision;
         cout << "\nCldm" << CYAN_T << ": " << RESET_COLOR;
         cin >> decision;
