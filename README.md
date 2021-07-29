@@ -3,6 +3,7 @@ Iniciar sesión desde la terminal / Login from terminal
 
 ![Preview Image](https://github.com/martinval9/cldm---CONSOLE-DISPLAY-MANAGER/blob/main/img1.png)
 
+![Preview Image](https://github.com/martinval9/cldm---CONSOLE-DISPLAY-MANAGER/blob/main/img2.png)
 
 Página Web / Webpage: https://consoledisplaymanager.000webhostapp.com/
 
