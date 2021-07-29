@@ -14,13 +14,11 @@ cd cldm---CONSOLE-DISPLAY-MANAGER
 
 sudo make
 
-En caso de que no funcione el _makefile_ hay que ejecutar estos comandos: / In case the _install.sh_ does not work, execute these commands:
+En caso de que no funcione el _makefile_ hay que ejecutar estos comandos: / In case the _makefile_ does not work, execute these commands:
 
 cd cldm---CONSOLE-DISPLAY-MANAGER
 
 sudo cp cldm /usr/bin/
-
-sudo cp verificar.py /usr/bin/
 
 ## Advertencia / Warning
 
