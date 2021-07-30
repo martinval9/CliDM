@@ -1,7 +1,7 @@
 #include<iostream>
 #include<stdio.h>
 
-//Colores
+//Colors
 
 #define RESET_COLOR "\x1b[0m"
 #define RED_T       "\x1b[31m"
@@ -11,17 +11,57 @@ using namespace std;
 
 int main() {
     system("clear");
+
+    FILE *file;
+
+    if (file = fopen("/usr/bin/startx", "r")) {fclose(file);}
+
+    else {
+        string xinit;
+        cout << RED_T << "No tienes xorg-xinit instalado! / You don't have xorg-xinit installed! " << RESET_COLOR << endl;
+        
+        cout << CYAN_T << "¿" << RESET_COLOR << "Desea Instalarlo" << CYAN_T << "? / " << RESET_COLOR << "Do you want to install it" << CYAN_T << "? [y/N]: " << RESET_COLOR;
+        cin >> xinit;
+
+        if (xinit == "y" || xinit == "Y") {
+            int distro_option;
+
+            cout << CYAN_T << "\n¿" << RESET_COLOR << "En qué esta basada tu distro / What is your distro based on" << CYAN_T << "?\n" << endl;
+
+            cout << CYAN_T << "1." << RESET_COLOR << " Basado en Debian o Ubuntu / 1. Based on Debian or Ubuntu\n" << endl;
+            cout << CYAN_T << "2." << RESET_COLOR << " Basado en Arch / 2. Based on Arch\n" << endl;
+
+            cout << "Cldm" << CYAN_T << ": " << RESET_COLOR;
+            cin >> distro_option;
+
+            switch (distro_option) {
+                case 1: system("sudo apt install xong-xinit");
+
+                case 2: system("sudo pacman -S xorg-xinit");
+            }
+
+            system("sleep 0.6 && clear");
+        
+        }
+
+        
+        else {
+            cout << RED_T << "Cldm no funcionara si no tienes xorg-xinit instalado. / Cldm won't work if you don't have xorg-xinit installed. " << RESET_COLOR << endl;
+        }
+    }
+
     while (true){
         cout << CYAN_T << "\n█▀▀ █▀█ █▄░█ █▀ █▀█ █░░ █▀▀   █▀▄ █ █▀ █▀█ █░░ ▄▀█ █▄█" << endl;
         cout << CYAN_T <<   "█▄▄ █▄█ █░▀█ ▄█ █▄█ █▄▄ ██▄   █▄▀ █ ▄█ █▀▀ █▄▄ █▀█ ░█░" << endl;
 
         cout << "\n█▀▄▀█ ▄▀█ █▄░█ ▄▀█ █▀▀ █▀▀ █▀█" << endl;
-        cout <<   "█░▀░█ █▀█ █░▀█ █▀█ █▄█ ██▄ █▀▄ 1.4\n" << RESET_COLOR << endl;
+        cout <<   "█░▀░█ █▀█ █░▀█ █▀█ █▄█ ██▄ █▀▄ 1.3\n" << RESET_COLOR << endl;
 
         cout << "Entornos / Environments" << CYAN_T << ":\n" << RESET_COLOR << endl;
 
-        //Comprobación
-        FILE *file;
+        //Comprobation
+
+
         if (file = fopen("a.txt", "r")) {fclose(file);}
 
         if (file = fopen("/usr/bin/qtile", "r"))               {cout << "Qtile" << endl; fclose(file);}
@@ -118,11 +158,10 @@ int main() {
 
         if (file = fopen("/usr/bin/openbox-kde-session", "r")) {cout << "KDE/Openbox" << endl; fclose(file);}
 
-        cout << CYAN_T << "Para lanzar el entorno de escritorio simplemente debes escribir su nombre (El que aparece arriba) \n\nTo launch the desktop environment you simply have to write its name (The one that appears above)" << RESET_COLOR << endl;
+        cout << CYAN_T << "Para lanzar el entorno de escritorio simplemente debes escribir su nombre(El que aparece arriba) \n\nTo launch the desktop environment you simply have to write its name (The one that appears above)" << RESET_COLOR << endl;
         string decision;
         cout << "\nCldm" << CYAN_T << ": " << RESET_COLOR;
         cin >> decision;
-
 
         // pkill cldm para evitar un consumo excesivo de cpu
         if(decision == "dwm" || decision == "Dwm")                                                    {cout << "Running Command: " << CYAN_T << "startx /usr/bin/dwm && pkill cldm"                             << RESET_COLOR << endl; system("startx /usr/bin/dwm && pkill cldm");} 
