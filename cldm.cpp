@@ -30,14 +30,22 @@ int main() {
 
             cout << CYAN_T << "1." << RESET_COLOR << " Basado en Debian o Ubuntu / 1. Based on Debian or Ubuntu\n" << endl;
             cout << CYAN_T << "2." << RESET_COLOR << " Basado en Arch / 2. Based on Arch\n" << endl;
+            cout << CYAN_T << "3." << RESET_COLOR << " Basado en Fedora / 3. Based on Fedora\n" << endl;
+            cout << CYAN_T << "4." << RESET_COLOR << " Basado en RedHat / 4. Based on RedHat\n" << endl;
+
 
             cout << "Cldm" << CYAN_T << ": " << RESET_COLOR;
             cin >> distro_option;
 
             switch (distro_option) {
-                case 1: system("sudo apt install xong-xinit");
+                case 1: cout << "Running Command:" << CYAN_T << " sudo apt install xong-xinit" << RESET_COLOR << endl; system("sudo apt install xong-xinit"); break;
 
-                case 2: system("sudo pacman -S xorg-xinit");
+                case 2: cout << "Running Command:" << CYAN_T << " sudo pacman -S xorg-xinit"   << RESET_COLOR << endl;   system("sudo pacman -S xorg-xinit"); break;
+
+                case 3: cout << "Running Command:" << CYAN_T << " sudo dnf install xong-xinit" << RESET_COLOR << endl; system("sudo dnf install xorg-xinit"); break;
+
+                case 4: cout << "Running Command:" << CYAN_T << " sudo yum install xorg-xinit" << RESET_COLOR << endl; system("sudo yum install xorg-xinit"); break;
+
             }
 
             system("sleep 0.6 && clear");
