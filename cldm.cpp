@@ -55,7 +55,7 @@ int main() {
         cout << CYAN_T <<   "█▄▄ █▄█ █░▀█ ▄█ █▄█ █▄▄ ██▄   █▄▀ █ ▄█ █▀▀ █▄▄ █▀█ ░█░" << endl;
 
         cout << "\n█▀▄▀█ ▄▀█ █▄░█ ▄▀█ █▀▀ █▀▀ █▀█" << endl;
-        cout <<   "█░▀░█ █▀█ █░▀█ █▀█ █▄█ ██▄ █▀▄ 1.3\n" << RESET_COLOR << endl;
+        cout <<   "█░▀░█ █▀█ █░▀█ █▀█ █▄█ ██▄ █▀▄ 1.5\n" << RESET_COLOR << endl;
 
         cout << "Entornos / Environments" << CYAN_T << ":\n" << RESET_COLOR << endl;
 
