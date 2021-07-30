@@ -28,11 +28,11 @@ int main() {
 
             cout << CYAN_T << "\n¿" << RESET_COLOR << "En qué esta basada tu distro / What is your distro based on" << CYAN_T << "?\n" << endl;
 
-            cout << CYAN_T << "1." << RESET_COLOR << " Basado en Debian o Ubuntu / " << CYAN_T << "1." << RESET_COLOR" Based on Debian or Ubuntu\n" << endl;
-            cout << CYAN_T << "2." << RESET_COLOR << " Basado en Arch / "            << CYAN_T << "2." << RESET_COLOR" Based on Arch\n"             << endl;
-            cout << CYAN_T << "3." << RESET_COLOR << " Basado en Fedora / "          << CYAN_T << "3." << RESET_COLOR" Based on Fedora\n"           << endl;
-            cout << CYAN_T << "4." << RESET_COLOR << " Basado en RedHat / "          << CYAN_T << "4." << RESET_COLOR" Based on RedHat\n"           << endl;
-
+            cout << CYAN_T << "1." << RESET_COLOR << " Basado en Debian o Ubuntu. / " << CYAN_T << "1." << RESET_COLOR" Based on Debian or Ubuntu.\n" << endl;
+            cout << CYAN_T << "2." << RESET_COLOR << " Basado en Arch.            / "            << CYAN_T << "2." << RESET_COLOR" Based on Arch.\n"             << endl;
+            cout << CYAN_T << "3." << RESET_COLOR << " Basado en Fedora.          / "          << CYAN_T << "3." << RESET_COLOR" Based on Fedora.\n"           << endl;
+            cout << CYAN_T << "4." << RESET_COLOR << " Basado en RedHat.          / "          << CYAN_T << "4." << RESET_COLOR" Based on RedHat.\n"           << endl;
+            cout << CYAN_T << "5." << RESET_COLOR << " Instalación Manual.        / "        << CYAN_T << "5." << RESET_COLOR" Manual Installation.\n"       << endl;
 
             cout << "Cldm" << CYAN_T << ": " << RESET_COLOR;
             cin >> distro_option;
@@ -46,13 +46,13 @@ int main() {
 
                 case 4: cout << "Running Command:" << CYAN_T << " sudo yum install xorg-xinit" << RESET_COLOR << endl; system("sudo yum install xorg-xinit"); break;
 
+                case 5: cout << "Running Command:" << CYAN_T << "bash"                         << RESET_COLOR << endl; system("echo 'Puedes salir usando el comando exit' && bash"); break;
             }
 
             system("sleep 0.6 && clear");
         
         }
 
-        
         else {
             cout << RED_T << "Cldm no funcionara si no tienes xorg-xinit instalado. / Cldm won't work if you don't have xorg-xinit installed. " << RESET_COLOR << endl;
         }
@@ -68,7 +68,6 @@ int main() {
         cout << "Entornos / Environments" << CYAN_T << ":\n" << RESET_COLOR << endl;
 
         //Comprobation
-
 
         if (file = fopen("a.txt", "r")) {fclose(file);}
 
@@ -171,7 +170,6 @@ int main() {
         cout << "\nCldm" << CYAN_T << ": " << RESET_COLOR;
         cin >> decision;
 
-        // pkill cldm para evitar un consumo excesivo de cpu
         if(decision == "dwm" || decision == "Dwm")                                                    {cout << "Running Command: " << CYAN_T << "startx /usr/bin/dwm && pkill cldm"                             << RESET_COLOR << endl; system("startx /usr/bin/dwm && pkill cldm");} 
 
         else if (decision == "qtile" || decision == "Qtile")                                          {cout << "Running Command: " << CYAN_T << "startx /usr/bin/qtile start -- :1 -nolisten tcp && pkill cldm" << RESET_COLOR << endl; system("startx /usr/bin/qtile start -- :1 -nolisten tcp && pkill cldm");} 
@@ -265,6 +263,7 @@ int main() {
     	else if (decision == "KDE/Openbox" || decision == "Kde/Openbox" || decision == "kde/openbox") {cout << "Running Command: " << CYAN_T << "startx /usr/bin/openbox-kde-session && pkill cldm"             << RESET_COLOR << endl; system("startx /usr/bin/openbox-kde-session && pkill cldm");}
 
         else if (decision == "kde-plasma" || decision == "Kde-Plasma" || decision == "Kde-plasma")    {cout << "Running Command: " << CYAN_T << "startx /usr/bin/startplasma-x11 && pkill cldm"                 << RESET_COLOR << endl; system("startx /usr/bin/startplasma-x11 && pkill cldm");}
+
     }
 
     return 0;
