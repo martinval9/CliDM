@@ -10,7 +10,7 @@ git clone https://github.com/martinval9/cldm---CONSOLE-DISPLAY-MANAGER
 
 cd cldm---CONSOLE-DISPLAY-MANAGER
 
-sudo bash install.sh
+sudo make
 
 echo ''
 
