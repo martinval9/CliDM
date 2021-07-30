@@ -28,10 +28,10 @@ int main() {
 
             cout << CYAN_T << "\n¿" << RESET_COLOR << "En qué esta basada tu distro / What is your distro based on" << CYAN_T << "?\n" << endl;
 
-            cout << CYAN_T << "1." << RESET_COLOR << " Basado en Debian o Ubuntu / 1. Based on Debian or Ubuntu\n" << endl;
-            cout << CYAN_T << "2." << RESET_COLOR << " Basado en Arch / 2. Based on Arch\n" << endl;
-            cout << CYAN_T << "3." << RESET_COLOR << " Basado en Fedora / 3. Based on Fedora\n" << endl;
-            cout << CYAN_T << "4." << RESET_COLOR << " Basado en RedHat / 4. Based on RedHat\n" << endl;
+            cout << CYAN_T << "1." << RESET_COLOR << " Basado en Debian o Ubuntu / " << CYAN_T << "1." << RESET_COLOR" Based on Debian or Ubuntu\n" << endl;
+            cout << CYAN_T << "2." << RESET_COLOR << " Basado en Arch / "            << CYAN_T << "2." << RESET_COLOR" Based on Arch\n"             << endl;
+            cout << CYAN_T << "3." << RESET_COLOR << " Basado en Fedora / "          << CYAN_T << "3." << RESET_COLOR" Based on Fedora\n"           << endl;
+            cout << CYAN_T << "4." << RESET_COLOR << " Basado en RedHat / "          << CYAN_T << "4." << RESET_COLOR" Based on RedHat\n"           << endl;
 
 
             cout << "Cldm" << CYAN_T << ": " << RESET_COLOR;
