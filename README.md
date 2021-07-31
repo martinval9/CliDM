@@ -1,24 +1,22 @@
-# cldm---CONSOLE-DISPLAY-MANAGER (Inspirado en tbsm) / (Inspired by tbsm)
-Iniciar sesión desde la terminal / Login from terminal
+# CliDM (Inspirado en tbsm) / (Inspired by tbsm)
+Console Display Manager
 
-![Preview Image](https://github.com/martinval9/cldm---CONSOLE-DISPLAY-MANAGER/blob/main/img/img1.png)
+![Preview Image](https://github.com/martinval9/CliDM/blob/main/img/img1.png)
 
-![Preview Image](https://github.com/martinval9/cldm---CONSOLE-DISPLAY-MANAGER/blob/main/img/img2.png)
-
-Página Web / Webpage: https://consoledisplaymanager.000webhostapp.com/
+![Preview Image](https://github.com/martinval9/CliDM/blob/main/img/img2.png)
 
 ## Instalación / Installation
-git clone https://github.com/martinval9/cldm---CONSOLE-DISPLAY-MANAGER.git
+git clone https://github.com/martinval9/CliDM.git
 
-cd cldm---CONSOLE-DISPLAY-MANAGER
+cd CliDM
 
 sudo make
 
 En caso de que no funcione el _makefile_ hay que ejecutar estos comandos: / In case the _makefile_ does not work, execute these commands:
 
-cd cldm---CONSOLE-DISPLAY-MANAGER
+cd CliDM
 
-sudo cp cldm /usr/bin/
+sudo cp clidm /usr/bin/
 
 ## Advertencia / Warning
 
