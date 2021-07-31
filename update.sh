@@ -1,14 +1,14 @@
 echo ''
-echo '█░█ █▀█ █▀▄ ▄▀█ ▀█▀ █▀▀   █▀▀ █░░ █▀▄ █▀▄▀█'
-echo '█▄█ █▀▀ █▄▀ █▀█ ░█░ ██▄   █▄▄ █▄▄ █▄▀ █░▀░█'
+echo '█ █ █▀█ █▀▄ ▄▀█ ▀█▀ █▀▀   █▀▀ █   █ █▀▄ █▀▄▀█'
+echo '█▄█ █▀▀ █▄▀ █▀█  █  ██▄   █▄▄ █▄▄ █ █▄▀ █ ▀ █'
 
-sudo rm -r cldm---CONSOLE-DISPLAY-MANAGER
+sudo rm -r CliDM-Console-Display-Manager
 
-sudo rm /usr/bin/cldm
+sudo rm /usr/bin/clidm
 
-git clone https://github.com/martinval9/cldm---CONSOLE-DISPLAY-MANAGER
+git clone https://github.com/martinval9/CliDM-Console-Display-Manager
 
-cd cldm---CONSOLE-DISPLAY-MANAGER
+cd CliDM-Console-Display-Manager
 
 sudo make
 
@@ -18,4 +18,4 @@ echo 'Recuerda revisar github para enterarte sobre las actualizaciones / Remembe
 
 echo ''
 
-echo 'Cldm Actualizado :D / Cldm Updated :D'
+echo 'CliDM Actualizado :D / CliDM Updated :D'
