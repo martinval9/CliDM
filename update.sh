@@ -2,13 +2,13 @@ echo ''
 echo '█ █ █▀█ █▀▄ ▄▀█ ▀█▀ █▀▀   █▀▀ █   █ █▀▄ █▀▄▀█'
 echo '█▄█ █▀▀ █▄▀ █▀█  █  ██▄   █▄▄ █▄▄ █ █▄▀ █ ▀ █'
 
-sudo rm -r CliDM-Console-Display-Manager
+sudo rm -r CliDM
 
 sudo rm /usr/bin/clidm
 
-git clone https://github.com/martinval9/CliDM-Console-Display-Manager
+git clone https://github.com/martinval9/CliDM
 
-cd CliDM-Console-Display-Manager
+cd CliDM
 
 sudo make
 
