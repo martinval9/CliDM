@@ -24,7 +24,7 @@ It is not advisable to launch a desktop environment if you are not in the tty.
 To enter tty you have to do CTRL + Alt + F2 and write your username and password and then write clidm.
 
 If you find any bug you can let me know at martinsebastianvaldez@protonmail.com
-
+_______________________________________________________________________________
 [Spanish Version]
 
 # CliDM (Inspirado en tbsm)
