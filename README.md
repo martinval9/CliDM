@@ -20,9 +20,11 @@ sudo cp clidm /usr/bin/
 
 ## Fast Run
 
-With the quick release you can use clidm in a much faster way
+With the quick release you can use clidm in a much faster way.
 
 ![Preview Image](https://github.com/martinval9/CliDM/blob/main/img/img_run.png)
+
+In some environments you will have to write 3 letters.
 
 ## Warning
 
@@ -58,6 +60,8 @@ sudo cp clidm /usr/bin/
 Con el lanzamiento rapido puedes usar clidm de una manera mucho más rápida 
 
 ![Preview Image](https://github.com/martinval9/CliDM/blob/main/img/img_run_es.png)
+
+En algunos entornos tendras que escribir 3 letras.
 
 ## Advertencia
 
