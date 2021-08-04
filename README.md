@@ -18,6 +18,12 @@ cd CliDM
 
 sudo cp clidm /usr/bin/
 
+## Fast Run
+
+With the quick release you can use clidm in a much faster way
+
+![Preview Image](https://github.com/martinval9/CliDM/blob/main/img/img_run.png)
+
 ## Warning
 
 It is not advisable to launch a desktop environment if you are not in the tty.
@@ -46,6 +52,12 @@ En caso de que no funcione el _makefile_ hay que ejecutar estos comandos:
 cd CliDM
 
 sudo cp clidm /usr/bin/
+
+## Lanzamiento Rapido
+
+Con el lanzamiento rapido puedes usar clidm de una manera mucho más rápida 
+
+![Preview Image](https://github.com/martinval9/CliDM/blob/main/img/img_run_es.png)
 
 ## Advertencia
 
