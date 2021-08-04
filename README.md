@@ -61,7 +61,7 @@ Con el lanzamiento rapido puedes usar clidm de una manera mucho más rápida
 
 ![Preview Image](https://github.com/martinval9/CliDM/blob/main/img/img_run_es.png)
 
-En algunos entornos tendras que escribir 3 letras.
+En algunos entornos tendrs que escribir 3 letras.
 
 ## Advertencia
 
