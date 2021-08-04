@@ -20,7 +20,7 @@ sudo cp clidm /usr/bin/
 
 ## Fast Run
 
-With the quick release you can use clidm in a much faster way.
+With the fast run you can use clidm in a much faster way.
 
 ![Preview Image](https://github.com/martinval9/CliDM/blob/main/img/img_run.png)
 
