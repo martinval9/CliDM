@@ -18,7 +18,7 @@ cd CliDM
 
 sudo cp clidm /usr/bin/
 
-## Fast Run
+## Fast Launch
 
 With the fast launch you can use clidm in a much faster way.
 
