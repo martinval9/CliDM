@@ -55,6 +55,8 @@ En caso de que no funcione el _makefile_ hay que ejecutar estos comandos:
 
 cd CliDM
 
+c++ clidm.cpp -o clidm
+
 sudo cp clidm /usr/bin/
 
 ## Lanzamiento Rapido
