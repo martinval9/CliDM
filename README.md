@@ -16,6 +16,8 @@ In case the _makefile_ does not work, execute these commands:
 
 cd CliDM
 
+c++ clidm.cpp -o clidm
+
 sudo cp clidm /usr/bin/
 
 ## Fast Launch
