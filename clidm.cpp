@@ -405,6 +405,7 @@ int main() {
             cout << BOLD << "shutdown " << BLUE << BOLD << "-" << RESET_COLOR << BOLD << " Shutdown your PC." << endl;
             cout << BOLD << "reboot   " << BLUE << BOLD << "-" << RESET_COLOR << BOLD << " Reboot your PC." << endl;
             cout << BOLD << "docs     " << BLUE << BOLD << "-" << RESET_COLOR << BOLD << " Documentation." << endl;
+            cout << BOLD << "source   " << BLUE << BOLD << "-" << RESET_COLOR << BOLD << " SourceCode." << endl;
         }
 
         else if (start == "exit") {
@@ -452,6 +453,10 @@ int main() {
             }
 
             system("clear");
+        }
+
+        else if (start == "source") {
+            system("nano $HOME/CliDM/clidm.cpp");
         }
 
         else {cout << BOLD << RED << BOLD << "Entorno no Encontrado, por favor reportalo en GitHub. / Environment Not Found, please report it on GitHub. " << RESET_COLOR << endl; system("sleep 1 && clear");}
