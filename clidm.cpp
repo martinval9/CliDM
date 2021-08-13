@@ -124,8 +124,6 @@ int main() {
 
         if (file = fopen("/usr/bin/chamfer", "r"))             {cout << BOLD "│" << BLUE << BOLD << "Ch" << RESET_COLOR << BOLD << "amfer                " << BOLD << "│" << endl; fclose(file);}
 
-        if (file = fopen("/usr/bin/flashfocus", "r"))          {cout << BOLD "│" << BLUE << BOLD << "Fl" << RESET_COLOR << BOLD << "ashfocus             " << BOLD << "│" << endl; fclose(file);}
-
         if (file = fopen("/usr/bin/flatman", "r"))             {cout << BOLD "│" << BLUE << BOLD << "Fl" << RESET_COLOR << BOLD << "atman                " << BOLD << "│" << endl; fclose(file);}
 
         if (file = fopen("/usr/bin/hikari", "r"))              {cout << BOLD "│" << BLUE << BOLD << "Hi" << RESET_COLOR << BOLD << "kari                 " << BOLD << "│" << endl; fclose(file);}
@@ -284,8 +282,6 @@ int main() {
         else if (start == "frankenwm"     || start == "Frankenwm"     || start == "Fr"          || start == "fr")                                      {cout << BOLD "Running Command: " << BLUE << BOLD << "startx /usr/bin/frankenwm && pkill clidm && clear" << GREEN << BOLD << " (✔)"                       << RESET_COLOR << endl; system("startx /usr/bin/frankenwm && pkill clidm && clear");}
     
         else if (start == "chamfer"       || start == "Chamfer"       || start == "Ch"          || start == "ch")                                      {cout << BOLD "Running Command: " << BLUE << BOLD << "startx /usr/bin/chamfer && pkill clidm && clear" << GREEN << BOLD << " (✔)"                         << RESET_COLOR << endl; system("startx /usr/bin/chamfer && pkill clidm && clear");}
-    
-        else if (start == "flashfocus"    || start == "Flashfocus"    || start == "FlashFocus"  || start == "Fl" || start == "fl")                     {cout << BOLD "Running Command: " << BLUE << BOLD << "startx /usr/bin/flashfocus && pkill clidm && clear" << GREEN << BOLD << " (✔)"                      << RESET_COLOR << endl; system("startx /usr/bin/flashfocus && pkill clidm && clear");}
 
         else if (start == "flatman"       || start == "Flatman"       || start == "Fl"          || start == "fl")                                      {cout << BOLD "Running Command: " << BLUE << BOLD << "startx /usr/bin/flatman && pkill clidm && clear" << GREEN << BOLD << " (✔)"                         << RESET_COLOR << endl; system("startx /usr/bin/flatman && pkill clidm && clear");}
         
