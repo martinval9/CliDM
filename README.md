@@ -28,6 +28,10 @@ With the fast launch you can use clidm in a much faster way.
 
 In some environments you will have to write 3 letters.
 
+## Help Menu
+
+![Preview Image](https://github.com/martinval9/CliDM/blob/main/img/help.png)
+
 ## Warning
 
 It is not advisable to launch a desktop environment if you are not in the tty.
@@ -66,6 +70,11 @@ Con el lanzamiento rapido puedes usar clidm de una manera mucho más rápida
 ![Preview Image](https://github.com/martinval9/CliDM/blob/main/img/img_run_es.png)
 
 En algunos entornos tendrs que escribir 3 letras.
+
+## Menu de Ayuda
+
+![Preview Image](https://github.com/martinval9/CliDM/blob/main/img/help.png)
+
 
 ## Advertencia
 
