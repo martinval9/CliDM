@@ -20,6 +20,12 @@ c++ clidm.cpp -o clidm
 
 sudo cp clidm /usr/bin/
 
+## Curl Installation
+mkdir CliDM && cd CliDM && curl -L https://github.com/martinval9/CliDM/releases/download/1.9/clidm -o clidm && chmod +x clidm && curl -L https://github.com/martinval9/CliDM/releases/download/1.9/Makefile && curl -L https://github.com/martinval9/CliDM/releases/download/1.9/update.sh
+
+## Wget Installation
+mkdir CliDM && cd CliDM && wget https://github.com/martinval9/CliDM/releases/download/1.9/clidm && chmod +x clidm && wget https://github.com/martinval9/CliDM/releases/download/1.9/Makefile && wget https://github.com/martinval9/CliDM/releases/download/1.9/update.sh
+
 ## Fast Launch
 
 With the fast launch you can use clidm in a much faster way.
@@ -63,13 +69,20 @@ c++ clidm.cpp -o clidm
 
 sudo cp clidm /usr/bin/
 
+## Instalación por Curl
+mkdir CliDM && cd CliDM && curl -L https://github.com/martinval9/CliDM/releases/download/1.9/clidm -o clidm && chmod +x clidm && curl -L https://github.com/martinval9/CliDM/releases/download/1.9/Makefile && curl -L https://github.com/martinval9/CliDM/releases/download/1.9/update.sh
+
+## Instalación por Wget
+mkdir CliDM && cd CliDM && wget https://github.com/martinval9/CliDM/releases/download/1.9/clidm && chmod +x clidm && wget https://github.com/martinval9/CliDM/releases/download/1.9/Makefile && wget https://github.com/martinval9/CliDM/releases/download/1.9/update.sh
+
+
 ## Lanzamiento Rapido
 
 Con el lanzamiento rapido puedes usar clidm de una manera mucho más rápida 
 
 ![Preview Image](https://github.com/martinval9/CliDM/blob/main/img/img_run_es.png)
 
-En algunos entornos tendrs que escribir 3 letras.
+En algunos entornos tendras que escribir 3 letras.
 
 ## Menu de Ayuda
 
